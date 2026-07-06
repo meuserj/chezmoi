@@ -420,7 +420,7 @@ then
     fi
 fi
 
-eval "$(oh-my-posh init zsh --config ~/.gitdotfiles/gruvbox.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.gruvbox.omp.json)"
 
 # Kiro CLI post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zshrc.post.zsh"
