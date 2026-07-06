@@ -1,0 +1,19 @@
+# Oh My Zsh (downloading the tarball is faster than cloning)
+[".oh-my-zsh"]
+    type = "archive"
+    url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
+    exact = true
+    stripComponents = 1
+    refreshPeriod = "168h" # Automatically update once a week
+
+# TPM (Tmux Plugin Manager)
+[".tmux/plugins/tpm"]
+    type = "git-repo"
+    url = "https://github.com/tmux-plugins/tpm"
+    refreshPeriod = "168h"
+
+# Theme.sh
+["bin/theme.sh"]
+    type = "git-repo"
+    url = "https://github.com/lemnos/theme.sh.git"
+    refreshPeriod = "168h"

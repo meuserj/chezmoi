@@ -1,0 +1,17 @@
+# Font Settings
+font-family = IosevkaTerm Nerd Font
+font-style = Light
+font-size = 9.5
+
+# Window & Decorations
+window-theme = dark
+background-opacity = 0.9
+
+# Theme
+theme = Gruvbox Dark
+
+# Keybindings
+keybind = ctrl+shift+n=new_window
+
+# Terminal
+term = xterm-256color
