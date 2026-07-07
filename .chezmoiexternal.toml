@@ -17,3 +17,9 @@
     type = "git-repo"
     url = "https://github.com/lemnos/theme.sh.git"
     refreshPeriod = "168h"
+
+# ZSH Syntax Highlighting
+[".zsh-syntax-highlighting"]
+    type = "git-repo"
+    url = "https://github.com/zsh-users/zsh-syntax-highlighting.git"
+    refreshPeriod = "168h"
