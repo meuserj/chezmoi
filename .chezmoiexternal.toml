@@ -30,3 +30,11 @@
     url = "https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64"
     executable = true
     refreshPeriod = "168h"
+
+# Fastfetch
+["bin/fastfetch"]
+    type = "archive-file"
+    url = "https://github.com/fastfetch-cli/fastfetch/releases/latest/download/fastfetch-linux-amd64.tar.gz"
+    path = "fastfetch-linux-amd64/usr/bin/fastfetch"
+    executable = true
+    refreshPeriod = "168h"
