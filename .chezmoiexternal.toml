@@ -23,3 +23,10 @@
     type = "git-repo"
     url = "https://github.com/zsh-users/zsh-syntax-highlighting.git"
     refreshPeriod = "168h"
+
+# Oh My Posh
+["bin/oh-my-posh"]
+    type = "file"
+    url = "https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64"
+    executable = true
+    refreshPeriod = "168h"
