@@ -144,7 +144,11 @@ then
 fi
 if [[ $(uname -s) == "Linux" ]]
 then
-    plugins+=(systemd fbterm)
+    if [[ -z "$ZSH_EXECUTION_STRING" ]]; then
+        plugins+=(systemd fbterm)
+    else
+        plugins+=(systemd)
+    fi
 fi
 if [[ -f $HOME/.fzf ]]
 then
@@ -282,7 +286,7 @@ then
     fi
 fi
 
-if [[ -z "$TMUX" ]] ;then
+if [[ -z "$TMUX" && -z "$ZSH_EXECUTION_STRING" ]] ;then
     ID="`tmux ls | grep -vm1 attached | cut -d: -f1`" # get the id of a deattached session
     if [[ -z "$ID" ]] ;then # if not available create a new one
         tmux new-session && exit
