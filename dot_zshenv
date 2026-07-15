@@ -3,6 +3,7 @@ then
     . "$HOME/.cargo/env"
 fi
 if [[ -e "$HOME/.devops_apps/dc_env/.rust/.cargo/env" ]]
+then
     . "$HOME/.devops_apps/dc_env/.rust/.cargo/env"
 fi
 export PATH=$HOME/bin:/usr/local/bin:$HOME/builds/tools_main_systest:$HOME/.local/bin:/opt/homebrew/sbin:/opt/homebrew/bin:$PATH
