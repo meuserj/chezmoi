@@ -1,0 +1,3 @@
+. "$HOME/.cargo/env"
+. "$HOME/.devops_apps/dc_env/.rust/.cargo/env"
+export PATH=$HOME/bin:/usr/local/bin:$HOME/builds/tools_main_systest:$HOME/.local/bin:/opt/homebrew/sbin:/opt/homebrew/bin:$PATH
