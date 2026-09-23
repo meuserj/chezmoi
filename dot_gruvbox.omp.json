@@ -49,7 +49,7 @@
             "fetch_version": false
           },
           "style": "powerline",
-          "template": " \ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue626 {{ if .Error }}{{ .Error }}{{ else }}{{ end }}",
           "type": "go"
         },
         {
@@ -60,7 +60,7 @@
             "fetch_version": false
           },
           "style": "powerline",
-          "template": " \ue624 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue624 {{ if .Error }}{{ .Error }}{{ else }}{{ end }}",
           "type": "julia"
         },
         {
@@ -84,7 +84,7 @@
             "fetch_version": false
           },
           "style": "powerline",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ end }}",
           "type": "python"
         },
         {
@@ -96,7 +96,7 @@
             "fetch_version": false
           },
           "style": "powerline",
-          "template": " \ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue791 {{ if .Error }}{{ .Error }}{{ else }}{{ end }}",
           "type": "ruby"
         },
         {
@@ -108,7 +108,7 @@
             "fetch_version": false
           },
           "style": "powerline",
-          "template": " \uf0e7{{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \uf0e7{{ if .Error }}{{ .Error }}{{ else }}{{ end }}",
           "type": "azfunc"
         },
         {
