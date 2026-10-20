@@ -6,6 +6,7 @@ font-size = 9.5
 # Window & Decorations
 window-theme = dark
 background-opacity = 0.9
+background-blur = true
 
 # Theme
 theme = Gruvbox Dark
