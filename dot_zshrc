@@ -432,3 +432,6 @@ eval "$(oh-my-posh init zsh --config ~/.gruvbox.omp.json)"
 
 # Added by Antigravity CLI installer
 export PATH="/home/meuserj/.local/bin:$PATH"
+if [[ -e "$HOME/.devopsclirc" ]]; then
+    source "$HOME/.devopsclirc"
+fi

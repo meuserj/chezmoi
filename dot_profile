@@ -29,3 +29,6 @@ fi
 
 # Added by Antigravity CLI installer
 export PATH="/home/meuserj/.local/bin:$PATH"
+if [ -d "$HOME/.devops_apps" ]; then
+  . "$HOME/.devops_apps/dc_env/.rust/.cargo/env"
+fi

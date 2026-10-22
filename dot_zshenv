@@ -7,3 +7,6 @@ then
     . "$HOME/.devops_apps/dc_env/.rust/.cargo/env"
 fi
 export PATH=$HOME/bin:/usr/local/bin:$HOME/builds/tools_main_systest:$HOME/.local/bin:/opt/homebrew/sbin:/opt/homebrew/bin:$PATH
+if [[ -d "$HOME/.devops_apps" ]]; then
+    . "$HOME/.devops_apps/dc_env/.rust/.cargo/env"
+fi
