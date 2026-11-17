@@ -120,3 +120,6 @@ export PATH="/home/meuserj/.local/bin:$PATH"
 if [[ -d "$HOME/.devops_apps" ]]; then
     . "$HOME/.devops_apps/dc_env/.rust/.cargo/env"
 fi
+if [[ -d "$HOME/.config/mediaops_tools" ]]; then
+    export PATH="$HOME/.config/mediaops_tools:$PATH"
+fi
